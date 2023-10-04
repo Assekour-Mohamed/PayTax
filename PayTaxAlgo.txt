@@ -1,0 +1,29 @@
+algorithme PayTax
+variables 
+    g:character
+    a:integer
+debut
+  ecrire("enter age")
+  lire(a)
+  ecrire("enter gender")
+  lire(g)
+  si g = "m"
+    si a > 20 
+      ecrire("pay tax or you will be in the jail")
+    sinon
+      ecrire("we will wait untill 20 ")
+    finsi
+  sinon
+    si g ="f" alors
+      si a >18 AND a < 35 alors
+        ecrire("hhh you  will pay tax")
+      sinon
+        ecrire("domage we will wait")
+      finsi
+    sinon 
+      ecrire("wrong input")
+    finsi
+  finsi
+fin
+    
+
